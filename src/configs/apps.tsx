@@ -2,12 +2,12 @@ import { appBarHeight } from "~/utils";
 import type { AppsData } from "~/types";
 
 const apps: AppsData[] = [
-  {
-    id: "launchpad",
-    title: "Launchpad",
-    desktop: false,
-    img: "img/icons/launchpad.png"
-  },
+  // {
+  //   id: "launchpad",
+  //   title: "Launchpad",
+  //   desktop: false,
+  //   img: "img/icons/launchpad.png"
+  // },
   {
     id: "bear",
     title: "Bear",
@@ -71,14 +71,14 @@ const apps: AppsData[] = [
     desktop: true,
     img: "img/icons/terminal.png",
     content: <Terminal />
-  },
-  {
-    id: "github",
-    title: "Github",
-    desktop: false,
-    img: "img/icons/github.png",
-    link: "https://github.com/Renovamen/playground-macos"
   }
+  // {
+  //   id: "github",
+  //   title: "Github",
+  //   desktop: false,
+  //   img: "img/icons/github.png",
+  //   link: "https://github.com/Renovamen/playground-macos"
+  // }
 ];
 
 export default apps;

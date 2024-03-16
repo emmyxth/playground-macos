@@ -12,7 +12,7 @@ const bear: BearData[] = [
         file: "markdown/about-me.md",
         icon: "i-la:dragon",
         excerpt: "Hiya! I'm Emmy, a 3rd-year Computer Science..."
-      }
+      },
       // {
       //   id: "github-stats",
       //   title: "Github Stats",
@@ -20,13 +20,13 @@ const bear: BearData[] = [
       //   icon: "i-icon-park-outline:github",
       //   excerpt: "Here are some status about my github account..."
       // },
-      // {
-      //   id: "about-site",
-      //   title: "About This Site",
-      //   file: "markdown/about-site.md",
-      //   icon: "i-octicon:browser",
-      //   excerpt: "Something about this personal portfolio site..."
-      // }
+      {
+        id: "about-site",
+        title: "About This Site",
+        file: "markdown/about-site.md",
+        icon: "i-octicon:browser",
+        excerpt: "Something about this personal portfolio site..."
+      }
     ]
   },
   {
